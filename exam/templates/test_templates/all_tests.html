@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block tests %}
+{% for test in tests %}
+<h1>{{ test.test_name }}</h1>
+{% endfor %}
+{% endblock %}
